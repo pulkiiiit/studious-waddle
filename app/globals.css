@@ -3,6 +3,16 @@
 
 @custom-variant dark (&:is(.dark *));
 
+/* globals.css */
+body {
+   background-image: url("https://i.pinimg.com/1200x/7a/47/bc/7a47bcedc7aee42870c950d88f3687b0.jpg"); /*put your image in public folder */
+  background-size: cover;   /* make it cover the whole screen */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* keeps it fixed when scrolling */
+}
+
+
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
